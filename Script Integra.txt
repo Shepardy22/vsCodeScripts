@@ -1,8 +1,1 @@
-codigos html
-
-
-solicitação de pull request
-negada
-
-
-
+pull request neg
