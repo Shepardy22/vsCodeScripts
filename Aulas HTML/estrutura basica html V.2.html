@@ -2,47 +2,56 @@
 
 <html>
     <head>
-<meta charset="utf-8">
-<title>Título de Site</title> <!--titulo na aba-->
+        <meta charset="utf-8"> <!--tipo de formatação-->
+        <title>Título da Aba</title> <!--titulo na aba-->
+        <link rel="stylesheet" href="style.css"> <!-- conecto com o style.css-->
     </head>
 
 <body>
     <header>       
-        <h1>Yuri Nunes</h1> <!--topo do cabecalho-->
+        <h1 id="title">Yuri Nunes</h1> <!--Título da página com h1-->
     </header>
 
-    <section>
-
-    <header>
-        <h2>Posts</h2>
-    </header>
-
-        <p>
-            Aqui adiciona os conteudos dos posts
-<!--
-<img src="ARQ.jpg" alt="Ilustaçao de imagem "> . caso o link ou imagem fique off use o alt=""
-<img alt="Foto">     
--->
-
-        </p>
-        <a href="www.google.com" target="_blanc">LinkEmnNovaAba</a><!--abrir pagina em nova aba-->
-
-    <article>
-        <header>
-            <h3>Post #1</h3>
+    <section> <!--Lista genérica de conteudo, ou artigos-->
+        <header class="class_cab"> <!--cabeçalho da página, ou de parde dela-->
+            <h2 class="subtitle">Cabeçalho dos Posts</h2> <!--h2 título da sessão-->
         </header>
-    </article>
+
+        <p class="class_post"> <!--parágrafo, pode se adicionar conteúdos, mídias e links-->
+            Aqui adiciona os conteúdos dos posts <!--<aside> conteúdo relacionado com o artigo principal da pagina-->
+        </p>
+
+
+        <article class="post"> <!--Conteúdo relevante na página-->
+                <header>
+                    <h3 class="post_subtitle">Título do Artigo Post#1</h3> <!--Título do artigo-->
+                </header>
+                 <p>
+                    O que é <a href="https://www.lipsum.com/" target="_blank">Lorem Ipsum</a>?<!--âncora para abrir pagina em nova aba-->
+                    Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão.
+                    Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,
+                    quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.
+                    Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado.
+                    Foi popularizado na década de 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e,
+                    mais recentemente, com software de editoração eletrônica como Aldus PageMaker, incluindo versões de Lorem Ipsum.
+                </p>
+                <p>
+                    <img class="class_img" src="lorem ipsum.jpg" alt="Descrição da img"> <!-- adiciona imagens-->
+                </p>
+        </article>
     </section>
-<footer>
-    <ul>
-        <li>
-            <a href="mailto:inv72kmaster@gmail.com">inv72kmaster@gmaillcom</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/yuri-nunes-13a1b4234/" target="_blank" a:hover="linkdopost"  >linkedin</a>
-        </li>
-    </ul>
-</footer>
+
+    <footer> <!--Rodapé da página / pode ser de um <article> ou <section>-->
+        <h4>Links de Contato</h4>
+        <ol> <!--<ul> Lista onde a ordem não tem importância/ <ol> separa por números os itens-->
+            <li> <!-- <li> Itens da Lista-->
+                <a href="mailto:inv72kmaster@gmail.com">inv72kmaster@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/yuri-nunes-13a1b4234/">linkedin</a>
+            </li>
+        </ol>
+    </footer>
 </body>
 
 </html>

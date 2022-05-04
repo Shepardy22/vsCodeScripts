@@ -1,0 +1,32 @@
+body {
+background: #eee;
+max-width: 600px;
+margin: auto;
+}
+#title, .subtitle, .post_subtitle{
+    color: blue;
+}
+.class_cab{
+margin: auto;
+}
+
+.class_img{
+width: 100%;
+}
+
+.class_post{
+margin-left: 30%;
+}
+
+.post_subtitle{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.post{
+background-color: lightskyblue;
+padding: 30px;
+border: 3px solid #080;
+margin: 10px;
+}
